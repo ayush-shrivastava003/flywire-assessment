@@ -8,4 +8,4 @@ Additional reading materials & web pages I scraped content from:
   
 * [Undirected graphs (Section 4.1 of *Algorithms, 4th ed.* by Sedgewick & Wayne)](https://algs4.cs.princeton.edu/41graph/)
 
-* [Directed graphs (Section 4.2 of *Algorithms, 4th ed.* by Sedgewick & Wayne)](https://algs4.cs.princeton.edu/42graph/)
+* [Directed graphs (Section 4.2 of *Algorithms, 4th ed.* by Sedgewick & Wayne)](https://algs4.cs.princeton.edu/42digraph/)
