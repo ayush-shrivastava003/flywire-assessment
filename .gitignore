@@ -1,5 +1,2 @@
-banc_626_edge_list.csv
-fafb_783_edge_list.csv
-manc_1.2.1_edge_list.csv
-maol_1.1_edge_list.csv
-mcns_0.9_edge_list.csv
+*.csv
+*.feather
