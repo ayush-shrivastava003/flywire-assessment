@@ -43,3 +43,4 @@ Including a tolerance for directional ratio (0.02) and degree rank percentile (0
 However, the verification script that ensured my answer was correct failed. There were still inconsistent edges.
 
 The clique was also shown to be incorrect as FAFB had two edges going between each node, while MAOL and MCNS each had one edge.
+
