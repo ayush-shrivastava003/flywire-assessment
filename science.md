@@ -16,7 +16,7 @@ I opted to produce my own visualization of the network as I'm not able to query 
 
 ![network-screenshot.png](./images/network-screenshot.png)
 
-I still used Codex to render the 3D visualizations, but I only selected the highest-degree neurons in the network, or the neurons with the most functional importance:
+I still used Codex to render the 3D visualizations, but I only selected the hub and its immediate neighbors.
 
 ![3d.png](./images/3d.png)
 
@@ -26,7 +26,7 @@ The seed I selected ended up being an AVLP030 neuron, which is responsible for i
 
 ## Encoding senses into memory
 
-The first subset that stood out to me was one small cluster at the edge of the graph with KCab and PAM cells. These are closely related cells that encode olfactory information into memories. The nearest Kenyon cell from the seed is four hops. The nearby CB2617 cell provides the large KCab-p cell with olfactory information, but oddly enough in this subgraph it is only connected to two tangential neurons carrying visual information.
+The first subset that stood out to me was one small cluster at the edge of the graph with KCab and PAM cells. These two cells, Kenyon cells are responsible for encoding olfactory information into memories (Turner et al., 2008). The nearest Kenyon cell from the seed is four hops. The nearby CB2617 cell provides the large KCab-p cell with olfactory information, but oddly enough in this subgraph it is only connected to two tangential neurons carrying visual information.
 
 ![kcabp-pam10.png](./images/kcabp-pam10.png)
 
@@ -41,3 +41,8 @@ I found a really interesting string of neurons that brings sensory signals from 
 The bottom left cluster is several visual input neurons that get fed into excitatory integration neurons. It eventually reaches the large sensory integration neuron in the top right, which directly inhits a descending neuron and indirectly inhibits another descending neuron two hops away.
 
 ![visual-dn.png](./images/visual-dn.png)
+
+## Sources
+
+* Codex: https://codex.flywire.ai
+* Turner et al: https://pubmed.ncbi.nlm.nih.gov/18094099/
