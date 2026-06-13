@@ -38,6 +38,6 @@ I found a really interesting string of neurons that brings sensory signals from 
 
 ## Excitatory visual input signals lead to inhibition of descending neurons
 
-The bottom left cluster is a number of visual input neurons that follow a series of excitatory integration neurons. It eventually reaches the large sensory integration neuron in the top right, which directly inhits a descending neuron and indirectly inhibits another descending neuron two hops away.
+The bottom left cluster is several visual input neurons that get fed into excitatory integration neurons. It eventually reaches the large sensory integration neuron in the top right, which directly inhits a descending neuron and indirectly inhibits another descending neuron two hops away.
 
 ![visual-dn.png](./images/visual-dn.png)
