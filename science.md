@@ -22,11 +22,11 @@ I still used Codex to render the 3D visualizations, but I only selected the hub 
 
 ## The AVLP030 Seed
 
-The seed I selected ended up being an AVLP030 neuron, which is responsible for integrating auditory and visual signals. With the exception of one reciprocal edge, in this subgraph AVLP030 only forms outbound connections with its neighbors. It is glutmatergic, so depending on the receptors on its partners it may either be excitatory or inhibitory.
+The seed I selected ended up being an AVLP030 neuron, which is responsible for integrating auditory and visual signals (Codex). With the exception of one reciprocal edge, in this subgraph AVLP030 only forms outbound connections with its neighbors. It is glutmatergic, so depending on the receptors on its partners it may either be excitatory or inhibitory.
 
 ## Encoding senses into memory
 
-The first subset that stood out to me was one small cluster at the edge of the graph with KCab and PAM cells. These two cells, Kenyon cells are responsible for encoding olfactory information into memories (Turner et al., 2008). The nearest Kenyon cell from the seed is four hops. The nearby CB2617 cell provides the large KCab-p cell with olfactory information, but oddly enough in this subgraph it is only connected to two tangential neurons carrying visual information.
+The first subset that stood out to me was one small cluster at the edge of the graph with KCab and PAM cells. Kenyon cells are responsible for encoding olfactory information into memories (Turner et al., 2008). The nearest Kenyon cell from the seed is four hops. The nearby CB2617 cell provides the large KCab-p cell with olfactory information, but oddly enough in this subgraph it is only connected to two tangential neurons carrying visual information.
 
 ![kcabp-pam10.png](./images/kcabp-pam10.png)
 
