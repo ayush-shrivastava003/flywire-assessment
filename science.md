@@ -18,7 +18,7 @@ I opted to produce my own visualization of the network as I'm not able to query 
 
 I still used Codex to render the 3D visualizations, but I only selected the highest-degree neurons in the network, or the neurons with the most functional importance:
 
-[put image here]
+![3d.png](./images/3d.png)
 
 ## The AVLP030 Seed
 
