@@ -1,5 +1,7 @@
 # Flywire Internship Technical Assessment
 
+**OUTCOME: 🚫 REJECTED**
+
 This repository is my submission for the summer 2026 FlyWire internship. If you're looking for my biological analysis of the final circuit, see `science.md`.
 
 My process in solving this problem is composed of several different approaches, increasing in complexity as the true difficulty of the problem became increasingly clear.
